@@ -33,6 +33,7 @@ public class Basictest {
     	 WebElement ele= ((WebElement) it.next());
     	// driver.navigate().refresh();
     	 System.out.println(ele.getText());
+	     System.out.println("hii arun");
     	 
     	 
     	 
