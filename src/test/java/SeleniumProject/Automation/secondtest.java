@@ -36,6 +36,7 @@ public class secondtest {
         	 driver.findElement(By.xpath("(//ol/li/a)[position()="+i+"]")).click();
         	Thread.sleep(2000);
         	 driver.navigate().back();
+        	 System.out.println("completed");
         	 
      		
      	}
