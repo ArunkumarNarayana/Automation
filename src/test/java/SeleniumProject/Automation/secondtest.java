@@ -35,7 +35,8 @@ public class secondtest {
         	 System.out.println(driver.findElement(By.xpath("(//ol/li/a)[position()="+i+"]")).getText());
         	 driver.findElement(By.xpath("(//ol/li/a)[position()="+i+"]")).click();
         	Thread.sleep(2000);
-        	 driver.navigate().back();
+        	 driver.navigate().back();//modified
+        	 //new row
         	 
         	 
      		
